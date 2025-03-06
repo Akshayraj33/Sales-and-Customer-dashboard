@@ -15,6 +15,19 @@ Through **data-driven decision-making**, this project helps identify **top custo
 ---
 ![Sales Dashboard](Sales.png)  
 
+---
+## 🛠️ Tech Stack Used
+
+### 📊 Data Visualization & Reporting
+- **Tableau** – Interactive dashboard visualizing **customer orders, sales trends, and profitability**.
+- **Excel & CSV Processing** – **Data transformation and preprocessing** before SQL ingestion.
+
+### 💾 Database & Query Processing
+- **PostgreSQL / MySQL ** – **Relational database for structured sales data storage**.
+- **SQL Queries** – Used for **customer segmentation, sales analysis, and order trend analysis**.
+
+---
+
 ## 🚀 Business Problems Addressed
 
 ### 1️⃣ How has the number of customers and orders changed over time?  
@@ -49,17 +62,7 @@ Detecting **high and low-performing months** helps in **seasonal promotions**.
 
 ---
 
-## 🛠️ Tech Stack Used
-
-### 📊 Data Visualization & Reporting
-- **Tableau** – Interactive dashboard visualizing **customer orders, sales trends, and profitability**.
-- **Excel & CSV Processing** – **Data transformation and preprocessing** before SQL ingestion.
-
-### 💾 Database & Query Processing
-- **PostgreSQL / MySQL ** – **Relational database for structured sales data storage**.
-- **SQL Queries** – Used for **customer segmentation, sales analysis, and order trend analysis**.
-
-### 📜 SQL Features Used
+## 📜 SQL Features Used
 - **Joins & Subqueries** – **Merging customer, orders, and sales data** for in-depth insights.
 - **Aggregations (SUM, COUNT, AVG, etc.)** – Computing **key sales metrics like total revenue, total orders, and average sales per customer**.
 - **Window Functions (RANK, PARTITION BY, LAG)** – Identifying **top customers, revenue trends, and seasonality**.
